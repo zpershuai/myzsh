@@ -1,0 +1,5 @@
+#!/bin/bash
+str=$1
+
+scp zhangpeng@build-6:/home/zhangpeng/${str:23} $2
+
