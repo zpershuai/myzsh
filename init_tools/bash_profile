@@ -1,0 +1,21 @@
+export LS_OPTIONS='--color=auto' # 如果没有指定，则自动选择颜色
+export CLICOLOR='Yes' #是否输出颜色
+export LSCOLORS='CxfxcxdxbxegedabagGxGx' #指定颜色
+
+
+alias tmatt="tmux att -t"
+alias tmls="tmux ls"
+alias tmnew="tmux new-session -s"
+alias tmkill="tmux kill-session -t"
+alias cc="clear"
+
+
+PATH="/Users/tentzp/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+
+alias python='/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6'
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
